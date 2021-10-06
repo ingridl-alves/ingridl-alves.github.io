@@ -1,0 +1,78 @@
+    /* BOTTONS */
+    
+
+.bottom-fixed {
+    /*position: fixed;*/
+    background: white;
+}
+
+.bottom  {
+    font-family: Montserrat, sans-serif;
+    padding: 10px;
+    border: #FCA311;
+    display: inline-block;
+    text-decoration: none;
+    color: #14213D;
+    scroll-behavior: smooth;
+}
+
+.bottom:hover {
+    background-color:#FCA311;
+}
+
+     /* NAME */
+
+
+.line-name {
+    
+}
+
+    /* Social Midias */
+
+.pag-github {
+    text-decoration: none;
+    color: #14213D;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    display: inline-block;
+    line-height: 1;   
+}
+
+
+
+h1 {
+    font-family: 'EB Garamond', serif;   
+}
+img {
+    padding: 50px;
+    height: 150px;
+    border-radius: 300px;
+    width: 180px;
+    margin: 50px;
+}
+
+body {
+     background: url(/Background-website-01.jpg);
+     background-repeat: no-repeat;
+ }
+
+personal-description p {
+background-color: #E5989B;
+}
+
+working-skills {
+
+}
+
+.course-trybe {
+    border-bottom-right-radius: 50%;
+  /* border-radius: 50%; */
+  background: #FCA311;
+
+working-how {
+
+}
+
+curioseti {
+
+}
