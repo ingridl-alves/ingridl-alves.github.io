@@ -23,19 +23,60 @@
      /* NAME */
 
 
-.line-name {
-    
+.name {  
+   height: 100vh;
+   width: 100vw;
+   background-color: #FCA311;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   box-sizing: border-box;
+   padding: 0 112px;
+   position: relative;
 }
 
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+p {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
     /* Social Midias */
 
 .pag-github {
     text-decoration: none;
     color: #14213D;
-    font-weight: 400;
+    padding: 1rem 4rem;
     font-family: Montserrat, sans-serif;
+    border: #FCA311;
     display: inline-block;
-    line-height: 1;   
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+ .pag-github:hover{
+     background-color: #FCA311;
+ }
+.pag-linkedin {
+    text-decoration: none;
+    color: #14213D;
+    padding: 1rem 4rem;
+    font-family: Montserrat, sans-serif;
+    border: #FCA311;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+.pag-linkedin:hover{
+    background-color: #FCA311;
 }
 
 
