@@ -1,19 +1,17 @@
     /* BOTTONS */
-    
-
-.bottom-fixed {
-    /*position: fixed;*/
-    background: white;
-}
 
 .bottom  {
     font-family: Montserrat, sans-serif;
-    padding: 10px;
     border: #FCA311;
     display: inline-block;
     text-decoration: none;
     color: #14213D;
+    background: white;
     scroll-behavior: smooth;
+   background-size: contain;
+   justify-content: center;
+   box-sizing: border-box;
+   padding: 0 100px;
 }
 
 .bottom:hover {
@@ -24,45 +22,49 @@
 
 
 .name {  
-   height: 100vh;
+   height: 30vh;
    width: 100vw;
-   background-color: #FCA311;
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: contain;
-   flex-direction: column;
-   justify-content: center;
-   align-items: flex-start;
-   box-sizing: border-box;
-   padding: 0 112px;
-   position: relative;
+   background:#FCA311;
 }
 
 h1 {
-    font-size: 50px;
+    padding: 10vh 0 0 0; 
+    margin-right: 300px;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
+    text-align: right;
 }
 
-p {
+.paragrafo {
+    padding: 0;
+    margin-right: 300px;
+    font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
+    text-align: right;
 }
     /* Social Midias */
+.links {
+    align: right;
+}
 
 .pag-github {
     text-decoration: none;
     color: #14213D;
     padding: 1rem 4rem;
+    margin-right: 400px;
     font-family: Montserrat, sans-serif;
     border: #FCA311;
     display: inline-block;
     align-items: center;
     justify-content: center;
     scroll-behavior: smooth;
+    float: right;
 }
  .pag-github:hover{
-     background-color: #FCA311;
+     background-color: white;
  }
 .pag-linkedin {
     text-decoration: none;
@@ -74,37 +76,62 @@ p {
     align-items: center;
     justify-content: center;
     scroll-behavior: smooth;
+    float: right;
 }
 .pag-linkedin:hover{
-    background-color: #FCA311;
+    background-color: white;
+}
+ 
+.social-mideas {
+    text-align: right;
 }
 
+    /* Image */
 
-
-h1 {
-    font-family: 'EB Garamond', serif;   
-}
 img {
-    padding: 50px;
-    height: 150px;
+    padding: 20px;
+    height: 250px;
     border-radius: 300px;
     width: 180px;
-    margin: 50px;
+    float: left;
+    margin-left: 450px;
 }
+
+
+    /* Backgrpund*/
 
 body {
      background: url(/Background-website-01.jpg);
      background-repeat: no-repeat;
  }
 
-personal-description p {
-background-color: #E5989B;
+    /*  Descrição */
+.descricao-paragrafo {
+
+    padding: 0;
+    padding-left: 150px;
+    margin-top: 80px;
+    margin-right: 300px;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: justify;
+    text-indent: 35.5em;
 }
-
-working-skills {
+    /* Habilidades */
+.working-skills{
+    padding: 0;
+    padding-left: 150px;
+    margin-top: 80px;
+    margin-right: 300px;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    list-style-type:square
+    /* text-indent: 35.5em; */
 
 }
-
 .course-trybe {
     border-bottom-right-radius: 50%;
   /* border-radius: 50%; */
@@ -113,7 +140,7 @@ working-skills {
 working-how {
 
 }
-
-curioseti {
+    /* Curiosidades */
+.curioseti {
 
 }
