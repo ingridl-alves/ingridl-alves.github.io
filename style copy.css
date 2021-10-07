@@ -1,0 +1,138 @@
+    /* BOTTONS */
+
+.bottom  {
+    font-family: Montserrat, sans-serif;
+    border: #FCA311;
+    display: inline-block;
+    text-decoration: none;
+    color: #14213D;
+    background: white;
+    scroll-behavior: smooth;
+   background-size: contain;
+   justify-content: center;
+   box-sizing: border-box;
+   padding: 0 100px;
+}
+
+.bottom:hover {
+    background-color:#FCA311;
+}
+
+     /* NAME */
+
+
+.name {  
+   height: 30vh;
+   width: 100vw;
+   background:#FCA311;
+}
+
+h1 {
+    padding: 10vh 0 0 0; 
+    margin-right: 300px;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: right;
+}
+
+.paragrafo {
+    padding: 0;
+    margin-right: 300px;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: right;
+}
+    /* Social Midias */
+.links {
+    align: right;
+}
+
+.pag-github {
+    text-decoration: none;
+    color: #14213D;
+    padding: 1rem 4rem;
+    margin-right: 400px;
+    font-family: Montserrat, sans-serif;
+    border: #FCA311;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+    float: right;
+}
+ .pag-github:hover{
+     background-color: white;
+ }
+.pag-linkedin {
+    text-decoration: none;
+    color: #14213D;
+    padding: 1rem 4rem;
+    font-family: Montserrat, sans-serif;
+    border: #FCA311;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+    float: right;
+}
+.pag-linkedin:hover{
+    background-color: white;
+}
+ 
+.social-mideas {
+    text-align: right;
+}
+
+    /* Image */
+
+img {
+    padding: 20px;
+    height: 250px;
+    border-radius: 300px;
+    width: 180px;
+    float: left;
+    margin-left: 450px;
+}
+
+
+    /* Backgrpund*/
+
+body {
+     background: url(/Background-website-01.jpg);
+     background-repeat: no-repeat;
+ }
+
+    /*  Descrição */
+
+/* .description-base */
+    margin-top: 80px;   
+}
+
+.descricao-paragrafo{
+    padding: 0;
+    padding-left: 150px;
+    margin-top: 80px;
+    margin-right: 300px;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: justify;
+    text-indent: 35.5em;
+
+}
+    /* Habilidades */
+.course-trybe {
+    border-bottom-right-radius: 50%;
+  /* border-radius: 50%; */
+  background: #FCA311;
+
+working-how {
+
+}
+    /* Curiosidades */
+.curioseti {
+
+}
