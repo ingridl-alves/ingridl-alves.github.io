@@ -128,19 +128,56 @@ body {
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
-    list-style-type:square
-    /* text-indent: 35.5em; */
+    list-style-type: none;
 
 }
+
 .course-trybe {
-    border-bottom-right-radius: 50%;
-  /* border-radius: 50%; */
-  background: #FCA311;
-
-working-how {
-
+    margin-right:70rem;
+    padding: 50px 50px 50px 50px;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+    background: #FCA311;
 }
-    /* Curiosidades */
-.curioseti {
 
+.working-how {
+    margin-left:70rem;
+    padding: 50px 50px 50px 50px;
+    font-family: Montserrat, sans-serif;
+    color: #FCA311;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 80px;
+    border-top-left-radius: 80px;
+    background: #14213D;
+}
+
+.curioseti{
+    padding: 50px 50px 50px 50px;
+    margin: 80px 300px;
+    background: #FCA311;
+    color: #14213D;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+}
+
+footer {
+    background: #14213D;
+    color: #FCA311;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    padding: 10px;
 }
