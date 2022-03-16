@@ -1,25 +1,26 @@
-    /* BOTTONS */
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+ /* BOTTONS */
 
 .bottom  {
     font-family: Montserrat, sans-serif;
-    border: #FCA311;
-    display: inline-block;
+    font-size: 20px;
+    display: flex;
     text-decoration: none;
     color: #14213D;
-    background: white;
-    scroll-behavior: smooth;
-   background-size: contain;
-   justify-content: center;
-   box-sizing: border-box;
-   padding: 0 100px;
+    background: #FCA311;
+    justify-content: center;
+    padding: 0 100px;     
 }
 
 .bottom:hover {
-    background-color:#FCA311;
+    background-color: white;
 }
 
-     /* NAME */
-
+ /* NAME */
 
 .name {  
    height: 30vh;
@@ -37,76 +38,47 @@ h1 {
     text-align: right;
 }
 
-.paragrafo {
+.paragraph {
     padding: 0;
-    margin-right: 300px;
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    text-align: right;
+    text-align: center;
 }
-    /* Social Midias */
-.links {
-    align: right;
-}
+ /* IMAGE */
 
-.pag-github {
+    img {
+        height: 400px;
+        border-radius: 50%;
+        padding: 15px;
+        float: left;
+        margin-left: 250px;
+    }
+
+ /* SOCIAL MEDIA */
+
+.pag-github , .pag-linkedin  {
     text-decoration: none;
     color: #14213D;
-    padding: 1rem 4rem;
-    margin-right: 400px;
+    padding: 15px;
     font-family: Montserrat, sans-serif;
-    border: #FCA311;
-    display: inline-block;
-    align-items: center;
+    display: flex;
     justify-content: center;
-    scroll-behavior: smooth;
-    float: right;
 }
- .pag-github:hover{
+ .pag-github:hover , .pag-linkedin:hover{
      background-color: white;
  }
-.pag-linkedin {
-    text-decoration: none;
-    color: #14213D;
-    padding: 1rem 4rem;
-    font-family: Montserrat, sans-serif;
-    border: #FCA311;
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    scroll-behavior: smooth;
-    float: right;
-}
-.pag-linkedin:hover{
-    background-color: white;
-}
- 
-.social-mideas {
-    text-align: right;
-}
 
-    /* Image */
-
-img {
-    padding: 20px;
-    height: 250px;
-    border-radius: 300px;
-    width: 180px;
-    float: left;
-    margin-left: 450px;
-}
-
-
-    /* Backgrpund*/
+ /* BACKGROUND*/
 
 body {
      background: url(/Background-website-01.jpg);
      background-repeat: no-repeat;
  }
 
-    /*  Descrição */
-.descricao-paragrafo {
+ /*  DESCRIPTION */
+
+.description-paragraph {
 
     padding: 0;
     padding-left: 150px;
@@ -118,34 +90,12 @@ body {
     text-align: justify;
     text-indent: 35.5em;
 }
-    /* Habilidades */
-.working-skills{
-    padding: 0;
-    padding-left: 150px;
-    margin-top: 80px;
-    margin-right: 300px;
-    font-family: Montserrat, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    text-align: center;
-    list-style-type: none;
 
-}
+ /* SKILLS */
 
-.course-trybe {
-    margin-right:70rem;
-    padding: 50px 50px 50px 50px;
-    font-family: Montserrat, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    border-bottom-left-radius: 150px;
-    border-bottom-right-radius: 80px;
-    border-top-right-radius: 80px;
-    background: #FCA311;
-}
-
-.working-how {
+.working-skills , .working-how {
     margin-left:70rem;
+    margin-top: 100px;
     padding: 50px 50px 50px 50px;
     font-family: Montserrat, sans-serif;
     color: #FCA311;
@@ -157,19 +107,16 @@ body {
     background: #14213D;
 }
 
-.curioseti{
+.course-trybe , .curiosity {
+    margin-right:70rem;
     padding: 50px 50px 50px 50px;
-    margin: 80px 300px;
-    background: #FCA311;
-    color: #14213D;
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    text-align: center;
-    border-bottom-left-radius: 75px;
-    border-bottom-right-radius: 75px;
-    border-top-left-radius: 75px;
-    border-top-right-radius: 75px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+    background: #FCA311;
 }
 
 footer {
@@ -180,4 +127,5 @@ footer {
     letter-spacing: 4px;
     text-align: center;
     padding: 10px;
+    margin-top: 50px;
 }
